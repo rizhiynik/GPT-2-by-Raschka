@@ -1,0 +1,21 @@
+# Виртуальное окружение
+.venv/
+env/
+bin/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Данные и чекпоинты
+data/               # Папка с датасетами
+models/*.pth        # Веса моделей (PyTorch)
+models/*.bin
+checkpoints/        # Промежуточные сохранения
+
+# Логи и отчеты
+runs/               # Логи TensorBoard
+*.log
+
+# Системные файлы
+.DS_Store
